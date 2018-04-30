@@ -1,0 +1,106 @@
+/* body {
+    background-color: #eee;
+    font-family: Courier New, Courier, monospace;
+    color: white;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
+    background: url('../images/bgimage.jpg') no-repeat;
+    background-size: cover;
+}
+.wrapper { 
+    margin: 0 auto;
+    background: green;
+    width: 960px;
+    min-height: 600px;
+    height: 100%:
+    text-align: center;
+}*/
+
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    background-color: rgba(12,51,114,.6);
+}
+#title-image, #gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#NoLuck, 
+#gameover-image, 
+#WinnerImg { display: none;
+}
+
+.gameplay-column {
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    min-height: 500px;
+}
+.ToTheMoon {
+    float: left;
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: flex;  
+    flex-flow: justify;
+    font-weight: bold;
+    text-align: center;
+    /* flex: 1 100%;*/
+  }
+
+  .header {
+    background: tomato;
+    width: 30%;
+  }
+  
+  .footer {
+    background: lightgreen;
+    width: 40%;
+  }
+  
+  .main {
+    text-align: left;
+    background: deepskyblue;
+  }
+
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 auto; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+      /* width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      border: 0; */
+    /* padding: 2em;  */
+    /* background-repeat: no-repeat; */
+    /* background-position: right top; */
+    background: url('../images/bgimage.png');
+    background-size: cover;
+}
+
+.wrapper {
+    padding: 10px;
+    width: 1000px;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    flex: 1 100%;
+} 
+  
+  
